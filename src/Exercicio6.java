@@ -17,7 +17,7 @@ public class Exercicio6 {
         final int plusTen   = 10;
         Map<String,Integer> celsius   = new HashMap<>();
         Map<String,Double> Fahrenheit = new HashMap<>();
-        for (int count = 10; count <= lastCount; count+=plusTen) {
+        for (int count = plusTen; count <= lastCount; count+=plusTen) {
           celsius.put("Celsius: ", count);
           System.out.println(celsius);
           Fahrenheit.put("Fahrenheit: ", Exercicio6.convertCelsiusToFahrenheit(count));
