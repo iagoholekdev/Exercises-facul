@@ -15,8 +15,8 @@ public class Exercicio6 {
        // multiplicar a temperatura em graus Celsius por 1,8 e somar 32
         final int lastCount = 100;
         final int plusTen   = 10;
-        Map<String,Integer> celsius   = new HashMap<String,Integer>();
-        Map<String,Double> Fahrenheit = new HashMap<String,Double>();
+        Map<String,Integer> celsius   = new HashMap<>();
+        Map<String,Double> Fahrenheit = new HashMap<>();
         for (int count = 10; count <= lastCount; count+=plusTen) {
           celsius.put("Celsius: ", count);
           System.out.println(celsius);
